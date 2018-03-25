@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manejador de eventos ejemplo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width">
+
+	<!--Importando el Framework JQuery actualizable Version 3.3.1-->
+	<script src= "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./js/principal.js">
+	</script>
+	<script type="text/javascript" src="./js/funciones.js"></script>
+</head>
+	<!--Los elementos de carga se escriben en la etiqueda BODY-->
+<body onload="saludo()"	onunload="despedida()">
+	<!----> 
+
+	<p>
+		<h3>Ejemplo de manejo de eventos</h3>
+		Ejemplo 1
+		<button onclick="alert('Gracias por pinchar')">
+			Da clic aqui
+		</button>
+		<br>
+		Ejemplo 2
+		<button ondblclick="alert('Gracias por pinchar doble vez')">
+			Da clic aqui
+		</button>
+		<br>
+		Ejemplo 3
+		<button onmousemove="alert('El cursos paso por encima')">
+			Da clic aqui
+		</button>
+		<br>
+		Ejemplo 4
+		<button onmousemove ="alert('El cursor se retiro')">
+			Da clic aqui
+		</button>
+		<br>
+			Ejemplo 5
+		<button onmouseover="alert('Cursor sobre el boton')">
+			Da clic aqui
+		</button>
+		<br>
+		Ejemplo 6
+		<button onclick="alert('UPS')">
+			Da clic aqui
+		</button>
+		<button onclick="saludo()">
+		Mensaje Saludo
+		</button>
+		<br>
+	</p>
+	<!--El codigo de JS se escribe al final del codigo para no confundir con el contenido-->
+
+	<p>
+		<h3>Eventos del teclado</h3>
+		Ejemplo 1
+		<input type="text" name="onkeypress" onkeypress="alert('Has soltado una tecla')">
+		<br>
+		Ejemplo 2
+		<input type="text" name="onkeydown" onkeydown="alert('Estas precionando una tecla')">
+		<br>
+		Ejemplo 3
+		<input type="text" name="onkeyup" onkeyup="alert('dejar de presionar una tecla')">
+		<br>
+
+	</p>
+	<p>
+		<h3>Eventos de enfoque</h3>
+		Ejemplo 1
+		<input type="text" value="onblur" onblur="alert('perdi el foco');style.backgroundColor='yellow';">
+		<br>
+		Ejemplo 2
+		<input type="text" value="onfocus" onfocus="alert('Tengo el foco');style.backgroundColor='yellow';">
+	</p>
+</body>
+</html>
