@@ -1,0 +1,15 @@
+.boton{
+	background-color: #4D8789;
+	color: white;
+	display: inline-block;
+	padding: 2px 25px;
+	text-align: center;
+	width: 93%;
+}
+.boton:hover{
+	background-color: #008CBA;
+}
+
+.nombreclase:focus{
+	background-color: #4D8789;
+}
