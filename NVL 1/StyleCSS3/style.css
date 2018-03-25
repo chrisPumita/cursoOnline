@@ -1,6 +1,17 @@
-		p{
-			background-color: blue;
-			font-weight: 500;
-			font-family: Arial;
-			padding: 10px;
-		}
+.titulos{
+	background-color: blue;
+	font-weight: 500;
+	font-family: Arial;
+	padding: 10px;
+}
+
+.ejemplo{
+	border-color: #000000;
+	border-width: 1px;
+	padding: 50px;
+	background-color: red;
+}
+
+.fondo{
+	background-image: url("fondo.jpg");
+}
