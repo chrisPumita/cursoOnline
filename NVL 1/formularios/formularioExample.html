@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de formulario</title>
+</head>
+<body>
+<div>
+	<h3>Coloque la informacion correspondiente</h3>
+	<input type="text" value="abc" >
+	<br>
+	<input type="password" value="abc">
+	<br>
+	<input type="checkbox" checked>
+	<input type="checkbox">
+	<input type="checkbox">
+	<br>
+	<input type="radio" name="choice" value="A">
+	<input type="radio" name="choice" value="A" checked>
+	<input type="radio" name="choice" value="A">
+	<br>
+	<select>
+		<option>F</option>
+		<option>M</option>
+	</select>
+	<input type="file">
+<p>
+	<h2>Envia texto</h2>
+</p>
+	<form action="example/focmularioExample.html" onsubmit="verEsctructura()">
+		<input type="text" name="ejemplo1"><br>
+		<input type="text" name="ejemplo2"><br>
+		<input type="text" name="ejemplo3"><br>
+		<input type="text" name="ejemplo4"><br>
+		<button type="submit">Enviar</button><br>
+	</form>
+	<!-- elementos de JavaScript -->
+</div>
+<div>
+	<h3>Verificacion de casillas</h3>
+	<p>
+		<form>
+			<input type="text" name="eje">
+			<button type="submit">Enviar</button>
+		</form>
+		<form action="example/submit.html" onsubmit="verificar()">
+			<input type="text" name="eje">
+			<button type="submit">Enviar</button>
+		</form>
+	</p>
+</div>
+	<script type="text/javascript" src="./js/script.js">
+	</script>
+</body>
+</html>
